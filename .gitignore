@@ -1,3 +1,8 @@
 /blog/nbproject/private/
 /userdemo/nbproject/private/
 /formdemo/public/img/captcha
+
+/blog/vendor/
+/helloworld/vendor/
+/userdemo/vendor/
+/formdemo/vendor/

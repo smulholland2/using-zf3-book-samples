@@ -53,7 +53,7 @@ class NavManager
         if (!$this->authService->hasIdentity()) {
             $items[] = [
                 'id' => 'login',
-                'label' => 'Sign in',
+                'label' => 'Login',
                 'link'  => $url('login'),
                 'float' => 'right'
             ];

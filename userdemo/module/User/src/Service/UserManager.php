@@ -216,12 +216,12 @@ class UserManager
      */
     public function changePassword($user, $data)
     {
-        $oldPassword = $data['old_password'];
+        //$oldPassword = $data['old_password'];
         
         // Check that old password is correct
-        if (!$this->validatePassword($user, $oldPassword)) {
+        /*if (!$this->validatePassword($user, $oldPassword)) {
             return false;
-        }                
+        }*/
         
         $newPassword = $data['new_password'];
         
